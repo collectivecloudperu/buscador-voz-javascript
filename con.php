@@ -1,14 +1,14 @@
 <?php
 
-$host = "localhost";
-$usuario = "root";
-$password = "";
-$dbnombre = "test";
+    $host = "localhost";
+    $usuario = "root";
+    $password = "";
+    $dbnombre = "test";
 
-$con = mysqli_connect($host, $usuario, $password, $dbnombre);
+    $con = mysqli_connect($host, $usuario, $password, $dbnombre);
 
-if (!$con)
-{
-    die("Error de Conexión: " . mysqli_connect_error());
-}
+    if (!$con)
+    {
+        die("Error de Conexión: " . mysqli_connect_error());
+    }
 
