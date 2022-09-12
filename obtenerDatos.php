@@ -1,5 +1,5 @@
 <?php
-include 'oc.php';
+include 'con.php';
 
 $buscarTexto = $_POST['buscadorvoz'];
 
